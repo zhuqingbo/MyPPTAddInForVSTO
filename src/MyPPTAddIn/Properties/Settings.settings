@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MyPPTAddIn.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="自定义" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tab2</Value>
+    </Setting>
+    <Setting Name="测试" Type="Microsoft.Office.Tools.Ribbon.RibbonPositionImpl" Scope="User">
+      <Value Profile="(Default)">AfterOfficeId TabHome</Value>
+    </Setting>
+    <Setting Name="test" Type="Microsoft.Office.Tools.Ribbon.RibbonPositionImpl" Scope="User">
+      <Value Profile="(Default)">AfterOfficeId TabHome</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

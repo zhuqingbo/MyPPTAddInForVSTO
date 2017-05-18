@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabHome">
+                <group id="group1" label="group1" />
+            </tab>
+            <tab id="tabDZ" insertAfterMso="TabHome" label="大众">
+                <group id="group3" label="颜色">
+                    <button id="btnColorPickup" onAction="btnColorPickup_Click" label="拾色器" />
+                    <button id="btnColorPanel" onAction="btnColorPanel_Click" label="颜色面板" />
+                </group>
+                <group id="group2" label="标签">
+                    <button id="button4" label="添加Comment" />
+                    <button id="button5" label="下一个Comment" />
+                    <button id="button6" label="删除所有Comments" />
+                    <button id="button7" label="添加&quot;Draft&quot;标签" />
+                    <button id="button8" label="添加&quot;Backup&quot;标签" />
+                    <button id="button9" label="添加主题标签" />
+                    <button id="btnAddFooter" onAction="btnAddFooter_Click" label="添加页脚" />
+                </group>
+                <group id="group4" label="插入">
+                    <button id="button10" label="分栏文本" />
+                    <button id="button11" label="本页结论框" />
+                    <button id="button12" label="备注" />
+                    <gallery id="gallery1" label="箭头" itemHeight="12" itemWidth="18" showItemLabel="false">
+                        <item id="__id1" />
+                        <item id="__id2" />
+                    </gallery>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
